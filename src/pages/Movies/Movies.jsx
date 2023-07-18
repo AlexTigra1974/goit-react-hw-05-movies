@@ -26,7 +26,7 @@ const Movies = () => {
 
   const handleSubmit = evt => {
     evt.preventDefault();
-    console.log(evt.target.search.value);
+
     const value = evt.target.search.value;
     if (value.trim() !== '') {
       toast.error(`Oops...you haven't entered anything`);
