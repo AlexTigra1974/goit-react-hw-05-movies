@@ -23,5 +23,6 @@ export const DetailsWrap = styled.div`
 `;
 
 export const AdditionalWrap = styled.div`
-  border: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
 `;
